@@ -1,6 +1,6 @@
 import React from "react";
 
-const dashboardLayout = ({ children }: { children: React.ReactNode }) => {
+const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="h-full">
       <main className="h-full text-gray-300">{children}</main>
@@ -8,4 +8,4 @@ const dashboardLayout = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
-export default dashboardLayout;
+export default DashboardLayout;
